@@ -43,6 +43,9 @@ The learning objective of this exercise is to practice creating instances of cus
 ## Entity Relationship Diagram
 First, build an ERD based on these above requirements using dbdiagram.io.
 
+### Sam's ERD:
+![Entity Relationship Diagram](student-exercises-erd.png)
+
 ## Setup
 > Note: Make sure that each class you define is in its own file.
 
