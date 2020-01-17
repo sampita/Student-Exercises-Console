@@ -6,6 +6,7 @@ class Instructor:
         self.cohort = cohort
         self.specialty = specialty
     
+    # A method to assign an exercise to a student
     def assign_exercise(self, student, exercise):
         student.exercises.append(exercise)
         
