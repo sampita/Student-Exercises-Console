@@ -5,4 +5,10 @@ class Student:
         self.slack_handle = slack_handle
         self.cohort = cohort
         self.exercises = list()
-    
+        
+    def list_exercises(self):
+        
+        exercises = ", ".join(self.exercises)
+        # print(exercises)
+        print(f"{self.first_name} is working on {exercises}.")
+        
